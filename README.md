@@ -2,9 +2,10 @@
 
 > 这个仓库是干啥的？
 >
-> 最近在折腾怎么自定义scheduler，主要有三种方式：
+> 最近在折腾怎么自定义scheduler，主要有四种方式：
 >
 > * 修改配置文件：只能基于现有插件做到调度策略上的微调
+> * 通过scheduler extender扩展，对系统的侵入最小：[实现一个 Kubernetes Scheduler Extender (liqiang.io)](https://liqiang.io/post/kubernetes-scheduler-extender-dd6516a6)
 > * 实现自己的插件：可以实现自己的插件，实现个性化的调度（比如基于GPU调度）
 > * 基于scheduler源码二次开发：基于源码重写、编译，彻底的自定义
 >
